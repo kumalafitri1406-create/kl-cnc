@@ -1,5 +1,5 @@
 name: kl_cnc_controller
-description: KL CNC Controller - GRBL USB & WiFi Serial
+description: KL CNC Controller
 publish_to: 'none'
 version: 2.0.0+1
 
@@ -9,26 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # USB Serial OTG
-  usb_serial: ^0.4.5
-
-  # WiFi / TCP Socket
-  network_info_plus: ^4.1.0
-
-  # State management
-  provider: ^6.1.1
-
-  # Local storage (settings)
   shared_preferences: ^2.2.2
-
-  # File picker (load .nc/.gcode files)
   file_picker: ^6.1.1
-
-  # Permission handling
   permission_handler: ^11.1.0
-
-  # Icons
   cupertino_icons: ^1.0.6
 
 dev_dependencies:
